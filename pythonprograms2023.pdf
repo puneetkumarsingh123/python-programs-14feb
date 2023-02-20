@@ -1,0 +1,98 @@
+#!/usr/bin/python3
+
+import time
+ 
+t = time.localtime(time.time())
+localtime = time.asctime(t)
+str = "Current Time:" + time.asctime(t)
+ 
+print(str):
+PYTHON PROGRAMMING
+
+                                                 //AREA OF THE CIRCLE                                   
+
+radius=float(input("enter radius of the circle"))
+area=3.14*radius*radius
+print("area of the circle is ",area)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                 //VOLUME OF THE SPHERE
+
+
+radius=float(input("enter radius of the sphere"))
+VOL=4/3*3.14*radius*radius*radius
+print("voume of the sphere is",VOL)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                //convert celcius to ferronhyde
+print ("celsius to ferronhyde")
+
+celcius=float(input())
+ferronhyde=(9*(celcius)/5)+32
+print("the temperature is :", ferronhyde)
+
+
+    
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                             //convert meter into kilometer
+
+meter=float(input("enter meters"))
+km=meter/1000
+print(" meter in km is",km)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                           //BMI?
+
+w=float(input("enter weight in kg"))
+h=float(input("enter height in meters"))
+BMI=w/(h*h)
+print("BMI is ",BMI)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+               
+                                       //MULTIPLY A NUMBER WITH 32
+                                      WITHOUT USING ARTHMETIC OP.
+
+num=int(input("enter any number"))
+ans=num<<5
+print("number after multiplication is",ans)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                               
+                                         //MULTIPY A NUMBER WITH 33
+                                          WITHOUT USING MULTIPYCATION OP.
+
+num=int(input("enter any number"))
+ans=(num<<5)+num
+print("number after multiplication is",ans)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                       //SWAP NUM. WITH 3 VARIABLE
+
+a=int(input("enter number a"))
+b=int(input("enter number b"))
+temp=a
+a=b
+b=temp
+print("a after swapping :",a,"\nb after swapping :",b)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                       //SWAP NUM. WITHOUT 3 VARIABLE
+
+a=int(input("enter number a"))
+b=int(input("enter number b"))
+a=a^b
+b=a^b
+a=a^b
+print("a after swapping :",a,"\nb after swapping :",b)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
